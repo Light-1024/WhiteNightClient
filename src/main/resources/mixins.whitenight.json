@@ -1,0 +1,12 @@
+{
+  "package": "com.code.sjaiaa.mixins",
+  "refmap": "mixins.whitenight.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftMixin",
+    "EntityPlayerSPMixin",
+    "NetworkManagerMixin",
+    "C01PacketChatMessageMixin",
+    "C03PacketPlayerMixin"
+  ]
+}
