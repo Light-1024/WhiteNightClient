@@ -2,7 +2,6 @@ package com.code.sjaiaa.manager;
 
 import com.code.sjaiaa.mod.BaseMod;
 import com.code.sjaiaa.mod.ModType;
-import com.code.sjaiaa.mod.mods.misc.NoKeepAlive;
 import com.code.sjaiaa.mod.mods.movement.Fly;
 import com.code.sjaiaa.mod.mods.movement.Sprint;
 import com.code.sjaiaa.mod.mods.render.ClickGui;
@@ -27,7 +26,6 @@ public class ModuleManager {
         mods.add(new KillAura());
         mods.add(new Sprint());
         mods.add(new Fly());
-        mods.add(new NoKeepAlive());
 //        mods.add(new Notification());
     }
     public static List<BaseMod> getMods() {
